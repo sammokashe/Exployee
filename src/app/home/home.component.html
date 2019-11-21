@@ -1,0 +1,13 @@
+<body>
+    <mat-sidenav-container fullscreen>
+        <mat-sidenav-content>
+            <mat-toolbar>
+              <button style="margin-left: 30%;" (click)="insert()"> Employee Register</button> 
+              <button style="margin-left: 20%;" (click)="retrive()"> Employee Details</button> 
+            </mat-toolbar>
+            <div class="main-content">
+                <router-outlet></router-outlet>
+            </div>          
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+  </body>
